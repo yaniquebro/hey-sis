@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS hey_sis_db;
+CREATE DATABASE hey_sis_db;
