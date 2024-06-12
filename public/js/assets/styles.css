@@ -12,7 +12,7 @@ body {
     background-image: url(https://images.unsplash.com/photo-1712087860928-c38c61a4e069?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
-.main {
+.signup, .main {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
