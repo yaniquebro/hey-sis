@@ -108,3 +108,28 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+
+footer {
+    height: 100px;
+}
+.buttons {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons .messages, .heart, .home, .no {
+    color: #f246a2;
+    background-color: #fc81b0;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 50px;
+    transition: 0.2s transform;
+}
+
+.messages:hover, .heart:hover, .home:hover, .no:hover {
+    transform: scale(1.1);
+}
