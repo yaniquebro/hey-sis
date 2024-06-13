@@ -6,26 +6,54 @@
         <title>Hey Sis! Dashboard</title>
         <link rel="stylesheet" href="dashboard.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
 
   </head>
   
   <body>
     <div class="container">
 
-        <header class="header"></header>
+        <aside id="sidebar">
+            <div class="toggle">
+                <div class="logo">
+                    <img src="assets/images/Pink Yellow Star Y2k Style Streetwear Logo (1).png">
+                    <h2>HEY SIS!</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
 
-        <aside id="sidebar"></aside>
-        <div class="sidebarLogo"> 
-            <img src="assets/images/full logo color backg.png">
-        </div>
-        <a href="#">Home</a>
-        <a href="#">My Profile</a>
-        <a href="#">Chat</a>
-        <a href="#">Logout</a>
-        </div>
-
-        <main class="main-container"></main>
-    </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Profile</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        question_answer
+                    </span>
+                    <h3>Chat</h3>
+                    <span class="message-count">0</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+        </aside>
+    </div>    
           
       
       <script>src=dash/dash.js</script> 
