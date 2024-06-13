@@ -4,6 +4,7 @@
     <title>Hey Sis! Signup</title>
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e29d6a5c7.js" crossorigin="anonymous"></script>
 
 </head>
@@ -12,7 +13,7 @@
 
     <div class= "header" id="pinkBar">
         <div class="logo">
-            <img src="assets/images/hey sis white.png">
+            <img src="assets/images/Hey Sis.png">
         </div>
         <div class="search">
             <span class="search-icon material-symbols-outlined">eyeglasses</span>
@@ -20,30 +21,76 @@
         </div>
     </div>
 
-    <div class="wrapper">
-        <h3>Profile Photo</h3>
-        <div class="image">
-            <img src="assets/images/full logo color backg.png">
-            <label for="file-path">
-                <i class="fa-solid fa-camera"></i>
-            </label>
-            <input type="file" accept="image/jpeg, image/jpg, image/png" id="file-path">
-        </div>
-    <script>script.js</script>      
-</body>
-<footer>
-    <div class="buttons">
-        <div class="messages">
-            <i class="fa-regular fa-comments"></i>
-        </div>
-        <div class="heart">
-            <i class="fa-regular fa-heart"></i>
-        </div>
-        <div class="no">
-            <i class="fa-solid fa-x"></i>
-        </div>
-        <div class="home">
-            <i class="fa-solid fa-house"></i>
-        </div>
+    <div class="container">
+        <aside id="sidebar">
+            <div class="toggle">
+                <div class="logo">
+                    <img src="assets/images/Pink Yellow Star Y2k Style Streetwear Logo (1).png">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Profile</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        question_answer
+                    </span>
+                    <h3>Chat</h3>
+                    <span class="message-count">0</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+        </aside>
+
+        <main>
+            <div class="wrapper">
+                <h3>Profile Photo</h3>
+                    <div class="image">
+                        <img src="assets/images/full logo color backg.png">
+                        <label for="file-path">
+                        <i class="fa-solid fa-camera"></i>
+                        </label>
+                        <input type="file" accept="image/jpeg, image/jpg, image/png" id="file-path">
+                    </div>
+            <script>script.js</script>      
+        </body>
+
+        <footer>
+            <div class="buttons">
+                <span class="material-icons-sharp">
+                    question_answer
+                </span>
+                <span class="material-icons-sharp">
+                    favorite_border
+                </span>
+                <span class="material-icons-sharp">
+                    close
+                </span>
+            </div>
+        </footer>
+        
     </div>
-</footer>
+
+    
+
+    
