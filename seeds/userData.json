@@ -1,38 +1,59 @@
 [
     {
-      "first_name": "John",
-      "last_name": "Doe",
+      "first_name": "Alice",
+      "last_name": "Smith",
       "city": "New York",
-      "email": "john.doe@example.com",
+      "email": "alice.smith@example.com",
       "password": "password123"
     },
     {
-      "first_name": "Jane",
-      "last_name": "Smith",
+      "first_name": "Bob",
+      "last_name": "Brown",
       "city": "Los Angeles",
-      "email": "jane.smith@example.com",
+      "email": "bob.brown@example.com",
       "password": "mypassword456"
     },
     {
-      "first_name": "Michael",
-      "last_name": "Johnson",
+      "first_name": "Charlie",
+      "last_name": "Davis",
       "city": "Chicago",
-      "email": "michael.johnson@example.com",
+      "email": "charlie.davis@example.com",
       "password": "securepass789"
     },
     {
-      "first_name": "Emily",
-      "last_name": "Davis",
+      "first_name": "Daisy",
+      "last_name": "Miller",
       "city": "Houston",
-      "email": "emily.davis@example.com",
-      "password": "emilypass101"
+      "email": "daisy.miller@example.com",
+      "password": "daisypass101"
     },
     {
-      "first_name": "Robert",
+      "first_name": "Ethan",
       "last_name": "Wilson",
       "city": "Phoenix",
-      "email": "robert.wilson@example.com",
-      "password": "robpassword202"
+      "email": "ethan.wilson@example.com",
+      "password": "ethanpass202"
+    },
+    {
+      "first_name": "Fiona",
+      "last_name": "Taylor",
+      "city": "Philadelphia",
+      "email": "fiona.taylor@example.com",
+      "password": "fionapass303"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Anderson",
+      "city": "San Antonio",
+      "email": "george.anderson@example.com",
+      "password": "georgepass404"
+    },
+    {
+      "first_name": "Hannah",
+      "last_name": "Thomas",
+      "city": "San Diego",
+      "email": "hannah.thomas@example.com",
+      "password": "hannahpass505"
     }
   ]
   
