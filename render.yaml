@@ -1,0 +1,14 @@
+gi# Exported from Render on 2024-06-17T18:41:10Z
+services:
+- type: web
+  name: hey-sis
+  runtime: node
+  repo: https://github.com/yaniquebro/hey-sis
+  plan: free
+  envVars:
+  - key: PORT
+    sync: false
+  region: oregon
+  buildCommand: npm install
+  startCommand: npm run start
+version: "1"
