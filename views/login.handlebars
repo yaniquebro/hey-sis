@@ -1,7 +1,7 @@
 <h2>Login</h2>
 
 <form class="form login-form">
-  <div class="form-group">
+  {{!-- <div class="form-group">
     <label for="email-login">email:</label>
     <input class="form-input" type="text" id="email-login" />
   </div>
@@ -11,7 +11,64 @@
   </div>
   <div class="form-group">
     <button class="btn btn-primary" type="submit">login</button>
-  </div>
+  </div> --}}
+  <header>
+        <h1 class="heading-login">HeySiS!</h1>
+    </header>
+    <!-- container div -->
+    <div class="container-login">
+        <!-- upper button section to select
+             the login or signup form -->
+        <div class="slider-login"></div>
+        <div class="btn-login">
+            <button class="login-login">Login</button>
+            <button class="signup-login">Signup</button>
+        </div>
+        <!-- Form section that contains the
+             login and the signup form -->
+        <div class="form-section-login">
+            <!-- login form -->
+            <div class="login-box-login">
+                <input type="email" 
+                       id="email-login"
+                       class="email ele-login" 
+                       placeholder="youremail@email.com">
+                <input type="password"
+                       id="password-login"
+                       class="password ele-login" 
+                       placeholder="password">
+                <button class="clkbtn-login">Login</button>
+            </div>
+            <!-- signup form -->
+            <div class="signup-box-login">
+                <input type="text" 
+                        id="signup-firstName"
+                       class="name ele-login" 
+                       placeholder="Enter your first name">
+                <input type="text" 
+                        id="signup-lastName"
+                       class="name ele-login" 
+                       placeholder="Enter your last name">
+                <input type="text" 
+                        id="signup-city"
+                       class="name ele-login" 
+                       placeholder="Enter your city name">
+                <input type="email" 
+                        id="signup-email"
+                       class="email ele-login" 
+                       placeholder="youremail@email.com">
+                <input type="password"
+                        id="signup-password"
+                       class="password ele-login" 
+                       placeholder="password">
+                <button class="signupbtn-login" id="signupButton">Signup</button>
+            </div>
+        </div>
+    </div>
+    
+   
 </form>
 
 <script src="/js/login.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/signup.js"></script>

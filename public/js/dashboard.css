@@ -113,7 +113,7 @@ b{
     color: var(--color-warning);
 }
 
-.container{
+.container-dashboard{
     display: grid;
     width: 96%;
     margin: 0 auto;

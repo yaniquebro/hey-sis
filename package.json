@@ -19,6 +19,8 @@
     "express-handlebars": "^7.1.2",
     "express-session": "^1.18.0",
     "mysql2": "^3.10.0",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.3"
   }
 }
