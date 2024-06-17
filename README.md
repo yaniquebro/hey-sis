@@ -26,10 +26,11 @@ Yanique Brooks
 Rachael Clarke
 
 ## Deployed Page
-https://yaniquebro.github.io/employee-salary-organizer/
+https://github.com/yaniquebro/hey-sis.git
 
 Screenshot:
-<img width="1470" alt="Screenshot 2024-05-13 at 8 38 18 AM" src="https://github.com/yaniquebro/employee-salary-organizer/assets/158354516/38e3c099-828d-4e75-b37b-7367aa78118a">
+![alt text](image.png)  
+![alt text](image-1.png)
 
 
 ## Contributions 
