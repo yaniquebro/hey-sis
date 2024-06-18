@@ -246,13 +246,13 @@ main{
     margin-top: 1.4rem;
 }
 
-main .analyse{
+main .friend-row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
 }
 
-main .analyse > div{
+main .friend-row > div{
     background-color: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -262,59 +262,59 @@ main .analyse > div{
     transition: all 0.3s ease;
 }
 
-main .analyse > div:hover{
+main .friend-row > div:hover{
     box-shadow: none;
 }
 
-main .analyse > div .status{
+main .friend-row > div .status{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-main .analyse h3{
+main .friend-row h3{
     margin-left: 0.6rem;
     font-size: 1rem;
 }
 
-main .analyse .progresss{
+main .friend-row .progresss{
     position: relative;
     width: 92px;
     height: 92px;
     border-radius: 50%;
 }
 
-main .analyse svg{
+main .friend-row svg{
     width: 7rem;
     height: 7rem;
 }
 
-main .analyse svg circle{
+main .friend-row svg circle{
     fill: none;
     stroke-width: 10;
     stroke-linecap: round;
     transform: translate(5px, 5px);
 }
 
-main .analyse .sales svg circle{
+main .friend-row .top-friend svg circle{
     stroke: var(--color-success);
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
 
-main .analyse .visits svg circle{
+main .friend-row .friend-r-2 svg circle{
     stroke: var(--color-danger);
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
 
-main .analyse .searches svg circle{
+main .friend-row .friend-r-3 svg circle{
     stroke: var(--color-primary);
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
 }
 
-main .analyse .progresss .percentage{
+main .friend-row .progresss .percentage{
     position: absolute;
     top: -3px;
     left: -1px;
