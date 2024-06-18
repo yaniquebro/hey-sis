@@ -118,7 +118,7 @@ b{
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
-    grid-template-columns: 12rem auto;
+    grid-template-columns: 12rem auto 2rem;
 }
 
 aside{
@@ -243,7 +243,7 @@ aside .sidebar .message-count{
 /*--Main--*/
 
 main{
-    margin-top: 1.4rem;
+    margin-top: 3rem;
 }
 
 main .friend-row{
@@ -453,34 +453,6 @@ main .activities a{
     height: 2.8rem;
     border-radius: 50%;
     overflow: hidden;
-}
-
-.right-section .user-profile{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 1rem;
-    background-color: var(--color-white);
-    padding: var(--card-padding);
-    border-radius: var(--card-border-radius);
-    box-shadow: var(--box-shadow);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.right-section .user-profile:hover{
-    box-shadow: none;
-}
-
-.right-section .user-profile img{
-    width: 11rem;
-    height: auto;
-    margin-bottom: 0.8rem;
-    border-radius: 50%;
-}
-
-.right-section .user-profile h2{
-    margin-bottom: 0.2rem;
 }
 
 @media screen and (max-width: 1200px) {
